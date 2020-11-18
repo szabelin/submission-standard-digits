@@ -1,7 +1,7 @@
 package com.standard.codingtest.digital.number;
 
 import com.standard.codingtest.digital.number.printer.Printer;
-import com.standard.codingtest.digital.number.scanner.filescanner.DigitalBlockScannerScanner;
+import com.standard.codingtest.digital.number.scanner.filescanner.DigitalBlockFileScanner;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -70,7 +70,7 @@ class DigitalApplicationTests {
         List<String> printedValues = newArrayList();
         Printer printer = printedValues::add;
 
-        new DigitalApplication(printer, new DigitalBlockScannerScanner(s));
+        new DigitalApplication(printer, new DigitalBlockFileScanner(s));
 
         return printedValues;
     }

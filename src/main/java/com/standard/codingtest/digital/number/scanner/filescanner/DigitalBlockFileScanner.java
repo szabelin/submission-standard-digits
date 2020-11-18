@@ -7,19 +7,19 @@ import java.io.FileNotFoundException;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class DigitalBlockScannerScanner implements Iterable<DigitalNumbers>, DigitalBlockScanner {
+public class DigitalBlockFileScanner implements Iterable<DigitalNumbers>, DigitalBlockScanner {
 
     public static final int NUMBER_LENGTH = 9;
 
     private final String file;
 
-    public DigitalBlockScannerScanner(String file) {
+    public DigitalBlockFileScanner(String file) {
         this.file = file;
     }
 
     @Override
     public Iterable<DigitalNumbers> scan() {
-        return DigitalBlockScannerScanner.this;
+        return DigitalBlockFileScanner.this;
     }
 
     @Override

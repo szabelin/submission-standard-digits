@@ -6,7 +6,7 @@ import com.standard.codingtest.digital.number.scanner.classifier.DigitalToBase10
 import com.standard.codingtest.digital.number.scanner.filescanner.DigitalBlockScanner;
 
 import static com.standard.codingtest.digital.number.scanner.classifier.DigitalToBase10Classifier.INVALID_DIGIT;
-import static com.standard.codingtest.digital.number.scanner.filescanner.DigitalBlockScannerScanner.NUMBER_LENGTH;
+import static com.standard.codingtest.digital.number.scanner.filescanner.DigitalBlockFileScanner.NUMBER_LENGTH;
 
 public class DigitalApplication {
 
